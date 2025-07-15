@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: petcare-app
-    env: node
-    buildCommand: npm install && npm run build
-    startCommand: node server.js
-    envVars:
-      - key: MONGODB_URI
-        value: mongodb+srv://siddhi:MySecurePassword@cluster0.abcde.mongodb.net/pet-care-app?retryWrites=true&w=majority
